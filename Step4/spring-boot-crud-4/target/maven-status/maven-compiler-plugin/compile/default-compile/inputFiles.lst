@@ -1,0 +1,5 @@
+/home/alberto/meetup/Step4/spring-boot-crud-4/src/main/java/com/baeldung/crud/controllers/UserController.java
+/home/alberto/meetup/Step4/spring-boot-crud-4/src/main/java/com/baeldung/crud/repositories/UserRepository.java
+/home/alberto/meetup/Step4/spring-boot-crud-4/src/main/java/com/baeldung/crud/Application.java
+/home/alberto/meetup/Step4/spring-boot-crud-4/src/main/java/com/baeldung/crud/aop/MDCAspect.java
+/home/alberto/meetup/Step4/spring-boot-crud-4/src/main/java/com/baeldung/crud/entities/User.java

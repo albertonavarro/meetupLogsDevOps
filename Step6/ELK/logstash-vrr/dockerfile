@@ -1,0 +1,5 @@
+FROM docker.elastic.co/logstash/logstash:6.4.1
+RUN rm -f /usr/share/logstash/config/logstash.conf
+RUN rm -f /usr/share/logstash/config/pipelines.yml
+ADD config/ /usr/share/logstash/config/
+ADD templates/ /usr/share/logstash/templates/

@@ -1,0 +1,5 @@
+com/baeldung/crud/aop/MDCAspect.class
+com/baeldung/crud/controllers/UserController.class
+com/baeldung/crud/Application.class
+com/baeldung/crud/entities/User.class
+com/baeldung/crud/repositories/UserRepository.class

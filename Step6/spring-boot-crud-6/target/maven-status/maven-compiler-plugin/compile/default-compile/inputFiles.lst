@@ -1,0 +1,6 @@
+/home/alberto/meetup/Step6/spring-boot-crud-6/src/main/java/com/baeldung/crud/Application.java
+/home/alberto/meetup/Step6/spring-boot-crud-6/src/main/java/com/baeldung/crud/repositories/UserRepository.java
+/home/alberto/meetup/Step6/spring-boot-crud-6/src/main/java/com/baeldung/crud/entities/User.java
+/home/alberto/meetup/Step6/spring-boot-crud-6/src/main/java/com/baeldung/crud/aop/MDCAspect.java
+/home/alberto/meetup/Step6/spring-boot-crud-6/src/main/java/com/baeldung/crud/controllers/UserController.java
+/home/alberto/meetup/Step6/spring-boot-crud-6/src/main/java/com/baeldung/crud/VRRHelper.java

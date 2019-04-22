@@ -1,0 +1,218 @@
+2019-04-07T22:38:58.884+02:00 [main] INFO c.b.crud.controllers.UserController - invoked addUser
+2019-04-07T22:38:58.892+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser
+2019-04-07T22:38:58.895+02:00 [main] INFO c.b.crud.controllers.UserController - edited info from user id 1
+2019-04-07T22:38:58.903+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser
+2019-04-07T22:38:58.906+02:00 [main] INFO c.b.crud.controllers.UserController - invoked deleteUser
+2019-04-07T22:38:59.038+02:00 [main] INFO c.b.crud.controllers.UserController - invoked addUser
+2019-04-07T22:38:59.040+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showSignUpForm
+2019-04-07T22:38:59.041+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showUpdateForm
+2019-04-07T22:39:02.175+02:00 [main] INFO com.baeldung.crud.Application - Starting Application on 192.168.1.131 with PID 30805 (/home/alberto/meetup/Step1/spring-boot-crud-1/target/classes started by alberto in /home/alberto/meetup/Step1/spring-boot-crud-1)
+2019-04-07T22:39:02.178+02:00 [main] INFO com.baeldung.crud.Application - No active profile set, falling back to default profiles: default
+2019-04-07T22:39:03.491+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07T22:39:03.672+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136ms. Found 1 repository interfaces.
+2019-04-07T22:39:05.133+02:00 [main] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65d05e46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07T22:39:05.965+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-07T22:39:06.065+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-07T22:39:06.104+02:00 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-07T22:39:06.105+02:00 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07T22:39:06.125+02:00 [main] INFO o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-04-07T22:39:06.263+02:00 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-07T22:39:06.264+02:00 [main] INFO o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3896 ms
+2019-04-07T22:39:06.650+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-07T22:39:07.644+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-07T22:39:07.850+02:00 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07T22:39:08.021+02:00 [main] INFO org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07T22:39:08.024+02:00 [main] INFO org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-07T22:39:08.349+02:00 [main] INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07T22:39:08.813+02:00 [main] INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-04-07T22:39:10.116+02:00 [main] INFO o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3f00e2a'
+2019-04-07T22:39:10.126+02:00 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07T22:39:11.619+02:00 [main] INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07T22:39:11.760+02:00 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-07T22:39:12.108+02:00 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-07T22:39:12.494+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-07T22:39:12.709+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-07T22:39:12.717+02:00 [main] INFO com.baeldung.crud.Application - Started Application in 11.736 seconds (JVM running for 23.8)
+2019-04-07T22:39:12.871+02:00 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-07T22:39:12.896+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-07T22:39:12.960+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 63 ms
+2019-04-07T22:39:13.777+02:00 [http-nio-8080-exec-3] INFO c.b.crud.controllers.UserController - invoked addUser
+2019-04-07T22:39:13.964+02:00 [http-nio-8080-exec-3] INFO o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-07T22:39:14.570+02:00 [http-nio-8080-exec-5] INFO c.b.crud.controllers.UserController - invoked addUser
+2019-04-07T22:39:14.656+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - invoked addUser
+2019-04-07T22:39:14.752+02:00 [http-nio-8080-exec-8] INFO c.b.crud.controllers.UserController - invoked updateUser
+2019-04-07T22:39:14.773+02:00 [http-nio-8080-exec-8] INFO c.b.crud.controllers.UserController - edited info from user id 1
+2019-04-07T22:39:14.862+02:00 [http-nio-8080-exec-10] INFO c.b.crud.controllers.UserController - invoked deleteUser
+2019-04-07T22:39:14.907+02:00 [http-nio-8080-exec-10] INFO c.b.crud.controllers.UserController - deleted user 2
+2019-04-07T22:39:15.003+02:00 [http-nio-8080-exec-2] INFO c.b.crud.controllers.UserController - invoked deleteUser
+2019-04-07T22:39:15.007+02:00 [http-nio-8080-exec-2] INFO c.b.crud.controllers.UserController - deleted user 3
+2019-04-07T22:39:15.074+02:00 [Thread-6] INFO o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07T22:39:15.078+02:00 [Thread-6] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07T22:39:15.079+02:00 [Thread-6] INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-04-07T22:39:15.099+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-07T22:39:15.146+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-13T10:37:10.173+02:00 [main] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:37:10.224+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:37:10.236+02:00 [main] INFO c.b.crud.controllers.UserController - edited info from user id 1
+2019-04-13T10:37:10.250+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:37:10.252+02:00 [main] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 1
+2019-04-13T10:37:10.758+02:00 [main] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:37:10.772+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showSignUpForm with id 0
+2019-04-13T10:37:10.780+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showUpdateForm with id 0
+2019-04-13T10:37:17.354+02:00 [main] INFO com.baeldung.crud.Application - Starting Application on 192.168.1.131 with PID 4117 (/home/alberto/meetup/Step1/spring-boot-crud-1/target/classes started by alberto in /home/alberto/meetup/Step1/spring-boot-crud-1)
+2019-04-13T10:37:17.374+02:00 [main] INFO com.baeldung.crud.Application - No active profile set, falling back to default profiles: default
+2019-04-13T10:37:20.551+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-13T10:37:20.709+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128ms. Found 1 repository interfaces.
+2019-04-13T10:37:23.005+02:00 [main] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d714f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13T10:37:25.305+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-13T10:37:25.390+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-13T10:37:25.464+02:00 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-13T10:37:25.464+02:00 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-13T10:37:25.521+02:00 [main] INFO o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-04-13T10:37:25.906+02:00 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-13T10:37:25.917+02:00 [main] INFO o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8070 ms
+2019-04-13T10:37:26.791+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-13T10:37:28.066+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-13T10:37:28.384+02:00 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-13T10:37:28.671+02:00 [main] INFO org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-13T10:37:28.688+02:00 [main] INFO org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-13T10:37:29.190+02:00 [main] INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-13T10:37:29.628+02:00 [main] INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-04-13T10:37:31.162+02:00 [main] INFO o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@76c1b954'
+2019-04-13T10:37:31.166+02:00 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-13T10:37:32.617+02:00 [main] INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-13T10:37:32.771+02:00 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-13T10:37:33.110+02:00 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-13T10:37:33.375+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-13T10:37:33.563+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-13T10:37:33.578+02:00 [main] INFO com.baeldung.crud.Application - Started Application in 18.435 seconds (JVM running for 39.143)
+2019-04-13T10:37:33.924+02:00 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-13T10:37:33.936+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-13T10:37:33.991+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 55 ms
+2019-04-13T10:37:35.605+02:00 [http-nio-8080-exec-2] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:37:35.881+02:00 [http-nio-8080-exec-2] INFO o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-13T10:37:36.954+02:00 [http-nio-8080-exec-4] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:37:37.050+02:00 [http-nio-8080-exec-6] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:37:37.188+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:37:37.219+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - edited info from user id 1
+2019-04-13T10:37:37.318+02:00 [http-nio-8080-exec-9] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 2
+2019-04-13T10:37:37.381+02:00 [http-nio-8080-exec-9] INFO c.b.crud.controllers.UserController - deleted user 2
+2019-04-13T10:37:37.488+02:00 [http-nio-8080-exec-10] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 3
+2019-04-13T10:37:37.491+02:00 [http-nio-8080-exec-10] INFO c.b.crud.controllers.UserController - deleted user 3
+2019-04-13T10:37:37.575+02:00 [Thread-6] INFO o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-13T10:37:37.587+02:00 [Thread-6] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-13T10:37:37.589+02:00 [Thread-6] INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-04-13T10:37:37.608+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-13T10:37:37.670+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-13T10:45:46.027+02:00 [main] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:45:46.033+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:45:46.037+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:45:46.038+02:00 [main] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 1
+2019-04-13T10:45:46.112+02:00 [main] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:45:46.113+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showSignUpForm with id 0
+2019-04-13T10:45:46.114+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showUpdateForm with id 0
+2019-04-13T10:45:47.991+02:00 [main] INFO com.baeldung.crud.Application - Starting Application on 192.168.1.131 with PID 4745 (/home/alberto/meetup/Step1/spring-boot-crud-1/target/classes started by alberto in /home/alberto/meetup/Step1/spring-boot-crud-1)
+2019-04-13T10:45:47.997+02:00 [main] INFO com.baeldung.crud.Application - No active profile set, falling back to default profiles: default
+2019-04-13T10:45:48.766+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-13T10:45:48.838+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2019-04-13T10:45:49.747+02:00 [main] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b27aa99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13T10:45:50.450+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-13T10:45:50.513+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-13T10:45:50.578+02:00 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-13T10:45:50.578+02:00 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-13T10:45:50.610+02:00 [main] INFO o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-04-13T10:45:50.725+02:00 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-13T10:45:50.726+02:00 [main] INFO o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2626 ms
+2019-04-13T10:45:51.021+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-13T10:45:51.518+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-13T10:45:51.664+02:00 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-13T10:45:51.797+02:00 [main] INFO org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-13T10:45:51.815+02:00 [main] INFO org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-13T10:45:52.091+02:00 [main] INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-13T10:45:52.315+02:00 [main] INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-04-13T10:45:53.186+02:00 [main] INFO o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@326bb36a'
+2019-04-13T10:45:53.189+02:00 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-13T10:45:54.058+02:00 [main] INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-13T10:45:54.136+02:00 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-13T10:45:54.306+02:00 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-13T10:45:54.485+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-13T10:45:54.536+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-13T10:45:54.539+02:00 [main] INFO com.baeldung.crud.Application - Started Application in 7.36 seconds (JVM running for 14.277)
+2019-04-13T10:45:54.994+02:00 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-13T10:45:55.000+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-13T10:45:55.039+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 38 ms
+2019-04-13T10:45:55.806+02:00 [http-nio-8080-exec-2] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:45:55.970+02:00 [http-nio-8080-exec-2] INFO o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-13T10:45:56.346+02:00 [http-nio-8080-exec-5] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:45:56.400+02:00 [http-nio-8080-exec-4] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:45:56.458+02:00 [http-nio-8080-exec-6] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:45:56.515+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 2
+2019-04-13T10:45:56.541+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - deleted user 2
+2019-04-13T10:45:56.597+02:00 [http-nio-8080-exec-9] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 3
+2019-04-13T10:45:56.600+02:00 [http-nio-8080-exec-9] INFO c.b.crud.controllers.UserController - deleted user 3
+2019-04-13T10:45:56.626+02:00 [Thread-6] INFO o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-13T10:45:56.628+02:00 [Thread-6] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-13T10:45:56.628+02:00 [Thread-6] INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-04-13T10:45:56.635+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-13T10:45:56.648+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-13T10:46:46.006+02:00 [main] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:46:46.011+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:46:46.015+02:00 [main] WARN c.b.crud.controllers.UserController - edited info from user id 1
+2019-04-13T10:46:46.017+02:00 [main] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:46:46.019+02:00 [main] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 1
+2019-04-13T10:46:46.097+02:00 [main] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:46:46.098+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showSignUpForm with id 0
+2019-04-13T10:46:46.099+02:00 [main] INFO c.b.crud.controllers.UserController - invoked showUpdateForm with id 0
+2019-04-13T10:46:47.959+02:00 [main] INFO com.baeldung.crud.Application - Starting Application on 192.168.1.131 with PID 4931 (/home/alberto/meetup/Step1/spring-boot-crud-1/target/classes started by alberto in /home/alberto/meetup/Step1/spring-boot-crud-1)
+2019-04-13T10:46:47.963+02:00 [main] INFO com.baeldung.crud.Application - No active profile set, falling back to default profiles: default
+2019-04-13T10:46:48.676+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-13T10:46:48.760+02:00 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces.
+2019-04-13T10:46:49.459+02:00 [main] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d54e53d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13T10:46:49.918+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-13T10:46:49.945+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-13T10:46:49.968+02:00 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-13T10:46:49.968+02:00 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-13T10:46:49.985+02:00 [main] INFO o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-04-13T10:46:50.092+02:00 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-13T10:46:50.092+02:00 [main] INFO o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2017 ms
+2019-04-13T10:46:50.300+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-13T10:46:50.824+02:00 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-13T10:46:50.927+02:00 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-13T10:46:51.043+02:00 [main] INFO org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-13T10:46:51.045+02:00 [main] INFO org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-13T10:46:51.250+02:00 [main] INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-13T10:46:51.454+02:00 [main] INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-04-13T10:46:52.286+02:00 [main] INFO o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3d542cd7'
+2019-04-13T10:46:52.289+02:00 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-13T10:46:53.093+02:00 [main] INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-13T10:46:53.201+02:00 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-13T10:46:53.455+02:00 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-13T10:46:53.657+02:00 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-13T10:46:53.713+02:00 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-13T10:46:53.716+02:00 [main] INFO com.baeldung.crud.Application - Started Application in 6.575 seconds (JVM running for 13.512)
+2019-04-13T10:46:53.873+02:00 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-13T10:46:53.874+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-13T10:46:53.886+02:00 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-04-13T10:46:54.513+02:00 [http-nio-8080-exec-2] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:46:54.683+02:00 [http-nio-8080-exec-2] INFO o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-13T10:46:55.073+02:00 [http-nio-8080-exec-3] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:46:55.127+02:00 [http-nio-8080-exec-4] INFO c.b.crud.controllers.UserController - invoking addUser with id 0
+2019-04-13T10:46:55.178+02:00 [http-nio-8080-exec-5] INFO c.b.crud.controllers.UserController - invoked updateUser with id 1
+2019-04-13T10:46:55.192+02:00 [http-nio-8080-exec-5] WARN c.b.crud.controllers.UserController - edited info from user id 1
+2019-04-13T10:46:55.238+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 2
+2019-04-13T10:46:55.257+02:00 [http-nio-8080-exec-7] INFO c.b.crud.controllers.UserController - deleted user 2
+2019-04-13T10:46:55.289+02:00 [http-nio-8080-exec-8] INFO c.b.crud.controllers.UserController - invoked deleteUser with id 3
+2019-04-13T10:46:55.293+02:00 [http-nio-8080-exec-8] INFO c.b.crud.controllers.UserController - deleted user 3
+2019-04-13T10:46:55.313+02:00 [Thread-6] INFO o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-13T10:46:55.314+02:00 [Thread-6] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-13T10:46:55.314+02:00 [Thread-6] INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-04-13T10:46:55.322+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-13T10:46:55.337+02:00 [Thread-6] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

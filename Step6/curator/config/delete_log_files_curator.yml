@@ -1,0 +1,36 @@
+actions:
+  1:
+    action: delete_indices
+    description: >-
+      Delete LOW indices over a minute
+    options:
+      ignore_empty_list: True
+      disable_action: False
+    filters:
+    - filtertype: pattern
+      kind: regex
+      value: vrr-.*-low-.*
+    - filtertype: age
+      source: creation_date
+      direction: older
+      timestring: '%Y-%m-%d-%H-%M'
+      unit: minutes
+      unit_count: 1
+
+  2:
+    action: delete_indices
+    description: >-
+      Delete IMP indices over 3 minutes
+    options:
+      ignore_empty_list: True
+      disable_action: False
+    filters:
+    - filtertype: pattern
+      kind: regex
+      value: vrr-.*-imp-.*
+    - filtertype: age
+      source: creation_date
+      direction: older
+      timestring: '%Y-%m-%d-%H-%M'
+      unit: minutes
+      unit_count: 3

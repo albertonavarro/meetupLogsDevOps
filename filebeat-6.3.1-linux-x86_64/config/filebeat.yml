@@ -1,0 +1,72 @@
+
+filebeat.inputs:
+  
+- type: log
+  enabled: true
+  paths:
+    - /home/alberto/meetup/Step1/meetup1.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup1
+  multiline:
+    pattern: '^\d{4}-'
+    negate: true
+    match: after
+    
+- type: log
+  enabled: true
+  paths:
+    - /home/alberto/meetup/Step2/meetup2.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup2
+  multiline:
+    pattern: '^\d{4}-'
+    negate: true
+    match: after
+
+- type: log
+  enabled: true
+  paths:
+    - /home/alberto/meetup/Step3/meetup3.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup3
+  multiline:
+    pattern: '^\d{4}-'
+    negate: true
+    match: after
+    
+- type: log
+  enabled: true
+  paths:
+    - /home/alberto/meetup/Step4/meetup4.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup4
+
+- type: log
+  enabled: true
+  paths:
+    - /home/alberto/meetup/Step5/meetup5.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup5
+    
+- type: log
+  enabled: true
+  paths:
+    - /home/alberto/meetup/Step6/meetup6.log
+  encoding: utf-8
+  fields:
+    logsystem: vrr
+    service: meetup6
+
+#----------------------------- Logstash output ---------------------------------
+output.logstash:
+  hosts: ["localhost:5044"]

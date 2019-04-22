@@ -1,0 +1,29 @@
+2019-03-19T23:43:02.923+0100	INFO	instance/beat.go:492	Home path: [/home/alberto/meetup/filebeat-6.3.1-linux-x86_64] Config path: [/home/alberto/meetup/filebeat-6.3.1-linux-x86_64] Data path: [/home/alberto/meetup/filebeat-6.3.1-linux-x86_64/data] Logs path: [/home/alberto/meetup/filebeat-6.3.1-linux-x86_64/logs]
+2019-03-19T23:43:02.924+0100	INFO	instance/beat.go:499	Beat UUID: 2ce50c2b-3517-4686-a50d-741ee020561e
+2019-03-19T23:43:02.924+0100	INFO	[beat]	instance/beat.go:716	Beat info	{"system_info": {"beat": {"path": {"config": "/home/alberto/meetup/filebeat-6.3.1-linux-x86_64", "data": "/home/alberto/meetup/filebeat-6.3.1-linux-x86_64/data", "home": "/home/alberto/meetup/filebeat-6.3.1-linux-x86_64", "logs": "/home/alberto/meetup/filebeat-6.3.1-linux-x86_64/logs"}, "type": "filebeat", "uuid": "2ce50c2b-3517-4686-a50d-741ee020561e"}}}
+2019-03-19T23:43:02.924+0100	INFO	[beat]	instance/beat.go:725	Build info	{"system_info": {"build": {"commit": "ed42bb85e72ae58cc09748dc1825159713e0ffd4", "libbeat": "6.3.1", "time": "2018-06-29T21:09:35.000Z", "version": "6.3.1"}}}
+2019-03-19T23:43:02.924+0100	INFO	[beat]	instance/beat.go:728	Go runtime info	{"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":4,"version":"go1.9.4"}}}
+2019-03-19T23:43:02.928+0100	INFO	[beat]	instance/beat.go:732	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2019-03-18T22:33:14+01:00","containerized":false,"hostname":"192.168.1.131","ips":["127.0.0.1/8","::1/128","192.168.1.131/24","fe80::53a9:3cb7:d49c:ae8e/64","172.21.0.1/16","172.18.0.1/16","172.17.0.1/16","172.19.0.1/16","fe80::42:fbff:fe72:652f/64","fe80::643f:fbff:fe9d:27f8/64","fe80::28c2:29ff:fe42:27fa/64","fe80::e07a:bff:feae:3cb1/64"],"kernel_version":"5.0.1-1-default","mac_addresses":["00:28:f8:11:f5:fd","02:42:57:02:1e:30","02:42:eb:dc:3e:40","02:42:be:ea:dd:d1","02:42:fb:72:65:2f","66:3f:fb:9d:27:f8","2a:c2:29:42:27:fa","e2:7a:0b:ae:3c:b1"],"os":{"family":"","platform":"opensuse-tumbleweed","name":"openSUSE Tumbleweed","version":"","major":0,"minor":0,"patch":0},"timezone":"CET","timezone_offset_sec":3600,"id":"7c188cc281f8da85f30a91505a152884"}}}
+2019-03-19T23:43:02.930+0100	INFO	[beat]	instance/beat.go:761	Process info	{"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":null,"effective":null,"bounding":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend","audit_read"],"ambient":null}, "cwd": "/home/alberto/meetup/filebeat-6.3.1-linux-x86_64", "exe": "/home/alberto/meetup/filebeat-6.3.1-linux-x86_64/filebeat", "name": "filebeat", "pid": 21426, "ppid": 20180, "seccomp": {"mode":"disabled","no_new_privs":false}, "start_time": "2019-03-19T23:43:01.910+0100"}}}
+2019-03-19T23:43:02.930+0100	INFO	instance/beat.go:225	Setup Beat: filebeat; Version: 6.3.1
+2019-03-19T23:43:02.931+0100	INFO	elasticsearch/client.go:145	Elasticsearch url: http://localhost:9200
+2019-03-19T23:43:02.933+0100	INFO	pipeline/module.go:81	Beat name: 192.168.1.131
+2019-03-19T23:43:02.934+0100	INFO	instance/beat.go:315	filebeat start running.
+2019-03-19T23:43:02.934+0100	INFO	[monitoring]	log/log.go:97	Starting metrics logging every 30s
+2019-03-19T23:43:02.935+0100	INFO	registrar/registrar.go:116	Loading registrar data from /home/alberto/meetup/filebeat-6.3.1-linux-x86_64/data/registry
+2019-03-19T23:43:02.935+0100	INFO	registrar/registrar.go:127	States Loaded from registrar: 4
+2019-03-19T23:43:02.935+0100	INFO	crawler/crawler.go:48	Loading Inputs: 1
+2019-03-19T23:43:02.936+0100	INFO	crawler/crawler.go:82	Loading and starting Inputs completed. Enabled inputs: 0
+2019-03-19T23:43:02.936+0100	INFO	cfgfile/reload.go:122	Config reloader started
+2019-03-19T23:43:02.936+0100	INFO	cfgfile/reload.go:214	Loading of config files completed.
+2019-03-19T23:43:17.744+0100	INFO	beater/filebeat.go:420	Stopping filebeat
+2019-03-19T23:43:17.744+0100	INFO	crawler/crawler.go:109	Stopping Crawler
+2019-03-19T23:43:17.744+0100	INFO	crawler/crawler.go:119	Stopping 0 inputs
+2019-03-19T23:43:17.744+0100	INFO	cfgfile/reload.go:217	Dynamic config reloader stopped
+2019-03-19T23:43:17.744+0100	INFO	crawler/crawler.go:135	Crawler stopped
+2019-03-19T23:43:17.744+0100	INFO	registrar/registrar.go:247	Stopping Registrar
+2019-03-19T23:43:17.744+0100	INFO	registrar/registrar.go:173	Ending Registrar
+2019-03-19T23:43:17.759+0100	INFO	[monitoring]	log/log.go:132	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":20,"time":{"ms":24}},"total":{"ticks":60,"time":{"ms":73},"value":0},"user":{"ticks":40,"time":{"ms":49}}},"info":{"ephemeral_id":"d0c67dd4-0ded-4224-979c-eedb1c289b7a","uptime":{"ms":14859}},"memstats":{"gc_next":4194304,"memory_alloc":1506456,"memory_total":3320656,"rss":22900736}},"filebeat":{"harvester":{"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0},"reloads":1},"output":{"type":"elasticsearch"},"pipeline":{"clients":0,"events":{"active":0}}},"registrar":{"states":{"current":4},"writes":{"success":1,"total":1}},"system":{"cpu":{"cores":4},"load":{"1":1.3,"15":1.77,"5":1.69,"norm":{"1":0.325,"15":0.4425,"5":0.4225}}}}}}
+2019-03-19T23:43:17.760+0100	INFO	[monitoring]	log/log.go:133	Uptime: 14.861900548s
+2019-03-19T23:43:17.760+0100	INFO	[monitoring]	log/log.go:110	Stopping metrics logging.
+2019-03-19T23:43:17.760+0100	INFO	instance/beat.go:321	filebeat stopped.

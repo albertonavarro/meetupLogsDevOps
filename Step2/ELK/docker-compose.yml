@@ -1,0 +1,41 @@
+version: '3'
+services:
+    elasticsearch:
+        image: docker.elastic.co/elasticsearch/elasticsearch:6.4.1 
+        deploy:
+            replicas: 3
+        environment:
+            - cluster.name=docker-cluster
+            - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+            - "discovery.zen.ping.unicast.hosts=elasticsearch"
+        ports:
+            - "9200:9200"
+            - "9300:9300"
+        networks:
+            - esnet
+    logstash:
+        build:
+            context: ./logstash-vrr
+            dockerfile: dockerfile
+        networks:
+            - esnet
+        depends_on:
+            - elasticsearch
+        environment:
+            LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+        ports:
+            - "5000:5000"
+            - "9600:9600"
+            - "5044:5044"
+            - "5045:5045"
+    kibana:
+        image: docker.elastic.co/kibana/kibana:6.4.1
+        ports:
+            - "5601:5601"
+        networks:
+            - esnet
+        depends_on:
+            - elasticsearch
+networks:
+    esnet:     
+        driver: bridge

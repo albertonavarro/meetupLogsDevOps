@@ -1,0 +1,11 @@
+ 
+{
+  "index_patterns": ["vrr-*-crit-*"],
+  "settings": {
+    "number_of_replicas": 2
+  },
+  "aliases" : {
+        "usecase1" : {},
+        "usecase2-{index}" : {} 
+    }
+}
