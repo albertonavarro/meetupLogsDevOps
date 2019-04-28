@@ -4,7 +4,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/meetup/Step1/meetup1.log
+    - ../Step1/meetup1.log
   encoding: utf-8
   fields:
     logsystem: classic
@@ -17,7 +17,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/meetup/Step2/meetup2.log
+    - ../Step2/meetup2.log
   encoding: utf-8
   fields:
     logsystem: classic
@@ -30,7 +30,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/meetup/Step3/meetup3.log
+    - ../Step3/meetup3.log
   encoding: utf-8
   fields:
     logsystem: classic
@@ -43,7 +43,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/meetup/Step4/meetup4.log
+    - ../Step4/meetup4.log
   encoding: utf-8
   fields:
     logsystem: classic
@@ -52,7 +52,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/meetup/Step5/meetup5.log
+    - ../Step5/meetup5.log
   encoding: utf-8
   fields:
     logsystem: classic
@@ -61,7 +61,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/meetup/Step6/meetup6.log
+    - ../Step6/meetup6.log
   encoding: utf-8
   fields:
     logsystem: vrr
