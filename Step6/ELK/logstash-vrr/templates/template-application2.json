@@ -1,0 +1,7 @@
+{
+  "index_patterns": ["logstash-classic-application2-*"],
+  "aliases" : {
+        "usecase1" : {},
+        "usecase2-{index}" : {} 
+    }
+}

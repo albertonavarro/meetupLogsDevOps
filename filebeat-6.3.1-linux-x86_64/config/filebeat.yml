@@ -66,6 +66,24 @@ filebeat.inputs:
   fields:
     logsystem: vrr
     service: meetup6
+    
+- type: log
+  enabled: true
+  paths:
+    - ../Step7/meetup7-0.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup7-1
+    
+- type: log
+  enabled: true
+  paths:
+    - ../Step7/meetup7-1.log
+  encoding: utf-8
+  fields:
+    logsystem: classic
+    service: meetup7-2
 
 #----------------------------- Logstash output ---------------------------------
 output.logstash:
